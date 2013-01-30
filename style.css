@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+.qr {
+	cellspacing:0;
+	margin:16px;
+}
+.qr td {
+	width:4px;
+	height:4px;
+}
+.dark{
+	background-color:black;
+}
+.light{
+	background-color:white;
+}

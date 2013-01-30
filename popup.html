@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>QRCode assistant</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="jQuery.min.js"></script>
+    <script src="functions.js"></script>
+    <script src="qrcode.js"></script>
+    <script src="popup.js"></script>
+    
+	<style type="text/css">
+    body {
+        font-size:12px;
+    }
+    #eclslider {
+        -webkit-appearance: none;
+        -webkit-border-radius:5px;
+        background-image:-webkit-linear-gradient(top, white, #393, white);
+    }
+    </style>
+	
+</head>
+
+<body>
+    <center><input id="eclslider" type="range" min="0" max="3" step="0" value="0" title="纠错等级" /></center>
+    
+    <br/>
+    
+	<div id="qrimage" style="width:100%; overflow:visible;"></div>
+    
+    <div id="tip">
+    	
+    </div>
+</body>
+</html>
